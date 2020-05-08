@@ -5,9 +5,9 @@ from jose import jwt
 from urllib.request import urlopen
 
 
-AUTH0_DOMAIN = 'ifatimah.auth0.com'
+AUTH0_DOMAIN = 'syed-rafay.auth0.com'
 ALGORITHMS = ['RS256']
-API_AUDIENCE = 'capstone'
+API_AUDIENCE = 'api'
 
 # AuthError Exception
 '''
