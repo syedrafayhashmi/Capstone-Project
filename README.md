@@ -1,5 +1,6 @@
-# The Capstone project of Udacity FSDN (Backend Only)
+# The Capstone project of Udacity FSND
 
+### Heroku link: (https://capstone-project-rafay.herokuapp.com/)
 
 ## Casting Agency - Final Project
 
@@ -38,7 +39,7 @@ This will install all of the required packages we selected within the `requireme
 
 ## Running the server
 
-From within the `./src` directory first ensure you are working using your created virtual environment.
+From within the parent directory first ensure you are working using your created virtual environment.
 
 Each time you open a new terminal session, run:
 
@@ -90,12 +91,12 @@ python test_app.py
     - Executive Producer
         - can perform all actions
         
+        
 7. Test the endpoints with [Postman](https://getpostman.com). 
     - Register 3 users - assign one for each role.
     - Sign into each account and make note of the JWT.
     - Import the postman collection `./udacity-fsnd-capstone.postman_collection.json`
     - Run the collection.
     - You could replace the localURL with the Heroku URL where the application is hosted:
-      `https://fsdnd-capstone.herokuapp.com`
+      `https://capstone-project-rafay.herokuapp.com/`
       
-
